@@ -417,6 +417,11 @@ p {
     left: 0;
   }
 
+  .opening__txt {
+    width: 300px;
+    margin-bottom:-50%;
+  }
+
   
 .opening__item {
   width: 100%;
@@ -427,7 +432,7 @@ p {
 }
 
 .opening__item::before {
-  transform: translate(115px, 0);
+  transform: translate(90px, 0);
     margin: 0;
 }
 
@@ -436,7 +441,7 @@ p {
 }
 
 .opening__item-title {
-  width: 300px;
+  width: 250px;
   font-size: 24px;
   line-height: 32px;
   text-align: center;
@@ -444,7 +449,7 @@ p {
 
 
 .opening__item-txt {
-  width: 276px;
+  width: 200px;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
