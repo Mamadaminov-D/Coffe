@@ -332,6 +332,14 @@ p {
   color: var(--bg-dark);
 }
 
+.btn__work {
+  padding: 15px 18px;
+  color: var(--bg-cream);
+  background-color: var(--bg-green);
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 85px;
+}
 
 
 
@@ -432,26 +440,26 @@ p {
     width: 390px;
   }
 
-  
-.number__item {
-  width: 200px;
-  height: 305px;
-}
 
-.number__one {
-  font-size: 62px;
-  line-height: 62px;
-}
+  .number__item {
+    width: 200px;
+    height: 305px;
+  }
 
-.number__title {
-  font-size: 22px;
-  line-height: 26px;
-}
+  .number__one {
+    font-size: 62px;
+    line-height: 62px;
+  }
 
-.number__txt {
-  font-size: 12px;
-  line-height: 20px;
-}
+  .number__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .number__txt {
+    font-size: 12px;
+    line-height: 20px;
+  }
 
 
 }
@@ -486,13 +494,13 @@ p {
   }
 
   .all__title {
-    width: 290px;
-    font-size: 40px;
+    width: 270px;
+    font-size: 35px;
     text-align: center;
   }
 
   .all__txt {
-    width: 300px;
+    width: 250px;
     font-size: 16px;
     line-height: 26px;
   }
@@ -517,6 +525,7 @@ p {
   }
 
   .opening__txt {
+    font-size: 10px;
     width: 300px;
     margin-bottom: -50%;
   }
@@ -545,7 +554,7 @@ p {
     font-size: 24px;
     line-height: 32px;
     text-align: center;
-    margin-left: 0;
+    margin-left: 10px;
   }
 
 
@@ -563,6 +572,14 @@ p {
 
   .number__list {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .btn__work {
+    margin-left: 80px;
+  }
+
+
 
 }
