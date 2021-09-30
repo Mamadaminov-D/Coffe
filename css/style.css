@@ -40,13 +40,13 @@ p {
   letter-spacing: 0.923077px;
   font-family: 'Barlow', sans-serif;
   text-transform: uppercase;
-  color: var(--cl-grey #83888F);
+  color: var(--cl-grey);
   transition: color 0.3s ease;
 }
 
 .header__link:hover {
   transition: color 0.5s ease;
-  color: var(--bg-dark #333D4B);
+  color: var(--bg-dark);
 }
 
 .header__item:not(:last-child) {
@@ -579,7 +579,5 @@ p {
   .btn__work {
     margin-left: 80px;
   }
-
-
 
 }
